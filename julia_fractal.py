@@ -27,4 +27,11 @@ def mandelbrot(n_rows, n_columns, iterations, cx, cy):
     plt.show()
 
 
-mandelbrot(1000,1000,120,-0.42,0.6)
+#%% Julia #1
+mandelbrot(800,600,120,-0.70176,-0.3842)
+
+#%% Julia #2
+mandelbrot(800,600,120,0.45,0.1428)
+
+#%% Julia #3
+mandelbrot(800,600,120,-0.42,0.6)
